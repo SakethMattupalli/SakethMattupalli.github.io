@@ -1,0 +1,59 @@
+/*small phones from o to 480 px */
+@media only screen and (max-width: 480px) {}
+
+/*........*small phones to to small tablets 
+from 481 to 767px .......................*/
+@media only screen and (max-width: 767px) {
+    body{ font-size: 16px;}
+    /* section{padding: } */
+    .row1,
+    .hero-text-box{
+        padding: 0 4%;
+    }
+    .col{ width: 100%; 
+          margin: 0 4% 0 0;
+    }
+    .main-nav{ display: none;}
+    .long-copy {
+    width: 150%;
+    margin: 0%;
+}
+    h1{ font-size: 180%;}
+    h2{ font-size: 150%;}
+    
+}
+
+/*........*small tablet to to big tablets 
+from 768 to 1023px .......................*/
+@media only screen and (max-width: 1023px) {
+    html{ 
+        font-size: 18px;
+    }
+    section{
+        padding: 60px;
+    }
+    .long-copy {
+    width: 80%;
+    margin-left: 10%;
+}
+    
+    .plan-box{
+        width: 100%;
+        margin-left: 0%;
+    }
+    .plan-price{
+    font-size: 250%;
+}
+}
+
+/*........*big tablets to to 1200px
+widths smaller than 1140px .......................*/
+@media only screen and (max-width: 1200px) {
+    .hero-text-box {
+        width: 100%;
+        padding: 0 2%;
+    }
+    .row1{
+        padding: 0 2%;
+    }
+}

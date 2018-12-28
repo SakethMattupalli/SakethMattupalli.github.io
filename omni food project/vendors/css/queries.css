@@ -1,0 +1,286 @@
+/*---------------------*/
+/* BIG TABLET TO 1200PX */
+/*---------------------*/
+
+@media only screen and (max-width: 1200px) {
+	.foodbackground-textbox {
+	
+	width: 100%;
+	padding: 0 2%;
+}
+.row {
+	padding: 0 2%;
+}
+}
+
+/*---------------------*/
+/* SMALL TABLET TO BIG TABLET */
+/*---------------------*/
+
+@media only screen and (max-width: 1023px) {
+	body {
+		font-size: 18px;
+	}
+
+	section {
+		padding: 60px 0;
+	}
+
+	.long-copy {
+
+		width: 80%;
+		margin-left: 10%;
+	}
+
+	.steps-box {
+		margin-top: 10px;
+	}
+
+		.steps-box:last-child {
+		margin-top: 10px;
+	}
+
+	.works-step {
+		margin-bottom: 40px;
+	}
+
+	.works-step:last-of-type {
+		margin-bottom: 60px;
+	}
+
+	.app-screen {
+		width: 50%;
+	}
+
+	.icon-small {
+		width: 17px;
+		margin-right: 5px;
+	}
+
+	.city-feature {
+		font-size: 90%;
+	}
+
+	.plan-box {
+		width: 100%;
+		margin-left: 0;
+	}
+
+	.plan-price {
+		font-size: 250%;
+	}
+
+	.contact-form {
+		width: 90%;
+	}
+}
+
+/*---------------------*/
+/* SMALL PHONE TO  SMALL TABLET */
+/*---------------------*/
+
+
+@media only screen and (max-width: 767px) {
+	body {
+		font-size: 16px;
+	}
+.main-nav{
+    border:0px;
+    padding:0px;
+    left:0px;
+}
+.main-nav ul{
+    border:0px;
+    padding:0px;
+    left:0px;
+}
+.section-testimonials {
+
+	background-image: -webkit-linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(dp_min.png);
+
+	background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(dp_min.png);
+	background-size: cover;
+	color: #fff;
+	background-position: center;
+	background-attachment: scroll;
+
+
+}
+header {
+	background-image: -webkit-linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(dp_min.png);
+	background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(dp_min.png);
+	background-size: cover;
+  background-attachment: scroll;
+  
+	background-position: center;
+	height: 100vh;
+
+	section {
+		padding: 30px 0;
+	}
+
+	.row,
+	.foodbackground-textbox {
+		padding: 0 4%;
+	}
+
+	.col {
+		width: 100%;
+		margin: 0 0 4% 0;
+	}
+
+	.main-nav {
+		display: none;
+	}
+	.mobile-nav-icon {
+		display: inline-block;
+	}
+
+	.main-nav {
+		float: left;
+		margin-top: 30px;
+		margin-left: 25px;
+	}
+	.main-nav li {
+		display: block;
+	}
+
+	.main-nav li a:link,
+	.main-nav li a:visited {
+		display: block;
+		border: 0;
+		padding: 10px 0;
+		font-size: 100%;
+	}
+
+	.sticky .main-nav {
+			margin-top: 10px;
+			
+	}
+
+	.sticky .main-nav li a:link,
+	.sticky .main-nav li a:visited {
+		padding: 10px 0;
+	}
+
+	.sticky .mobile-nav-icon {
+		margin-top: 10px;
+
+	}
+
+		.sticky .mobile-nav-icon i {
+			color: #555;
+		}
+
+	h1 {
+		font-size: 180%;
+	}
+
+	h2 {
+		font-size: 150%;
+	}
+
+.long-copy {
+
+		width: 100%;
+		margin-left: 0%;
+	}
+
+	.steps-box:first-child {
+	text-align: center;
+	}
+
+	.works-step-div {
+		height: 40px;
+		width: 40px;
+		margin-right: 15px;
+		padding: 4px;
+		font-size: 120%;
+	}
+
+.works-step {
+		margin-bottom: 20px;
+	}
+
+.works-step:last-of-type {
+		margin-bottom: 20px;
+	}
+
+.map-box {
+	width: 100%;
+	height: auto;
+	position: relative;
+	
+}
+
+.map {
+	width: 100%;
+	height: 300px;
+	position: relative;
+	z-index: 0;
+}
+
+.form-box {
+	width: 100%;
+	position: relative;
+	
+	height: auto;
+	padding: 30px 0;
+	
+}
+
+}
+
+/*---------------------*/
+/* SMALL PHONES FROM 0 TO 480PX */
+/*---------------------*/
+
+@media only screen and (max-width: 480px) {
+section {
+	padding: 25px 0;
+}
+.main-nav{
+    border:0px;
+    padding:0px;
+    left:0px;
+    float: right;
+}
+.main-nav ul{
+    border:0px;
+    padding:0px;
+    left:0px;
+    float: right;
+}
+
+.contact-form {
+	width: 100%;
+}
+
+ .main_bar{
+  width: 20px;
+  border: 20px;
+ }
+
+.section-testimonials {
+
+	background-image: -webkit-linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(dp_min.png);
+
+	background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(dp_min.png);
+	background-size: cover;
+	color: #fff;
+	background-position: center;
+	background-attachment: scroll;
+
+
+}
+header {
+	background-image: -webkit-linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(dp_min.png);
+	background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(dp_min.png);
+	background-size: cover;
+  background-attachment: scroll;
+  
+	background-position: center;
+	height: 100vh;
+
+}
+}
